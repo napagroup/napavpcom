@@ -1,0 +1,30 @@
+.logo {
+	height: 100%;
+}
+
+.navbar-brand {
+	height: 76px;
+}
+
+.navbar.navbar-default {
+	border-radius: 0;
+	margin: 0;
+}
+
+.animated-text h2 {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    line-height: 2.5;	
+}
+
+@media (max-width: 767px) {
+	.navbar-fixed-top {
+		position: absolute;
+	}
+	.animated-text h2 {
+		position: relative;
+		line-height: 1.5;
+	}
+}
